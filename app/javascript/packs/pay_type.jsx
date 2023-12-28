@@ -1,8 +1,9 @@
 import React from 'react'
-import ReactDOM from 'react-dom' 
+import { createRoot } from 'react-dom/client';
 import PayTypeSelector from 'PayTypeSelector'
 
 document.addEventListener('turbolinks:load', () => {
   const element = document.querySelector("#pay-type-component"); 
-  ReactDOM.render(<PayTypeSelector />, element);
+  const root = createRoot(element);
+  root.render(<PayTypeSelector />);
 });
