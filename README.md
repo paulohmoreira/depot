@@ -36,6 +36,25 @@ $ docker-compose up --build
 
 # Acesse a aplicação http://localhost:3000
 ```
+
+Se você utiliza a IDE VSCode, pode simplificar ainda mais seu fluxo de desenvolvimento utilizando a extensão DevContainer. Siga os passos abaixo:
+
+1. **Instale a Extensão DevContainer:**
+Certifique-se de ter a extensão DevContainer instalada no seu VSCode.
+
+2. **Reabra o Projeto no VSCode:**
+Abra o Visual Studio Code e navegue até o diretório do projeto.
+
+3. **Identificação Automática do DevContainer:**
+O VSCode identificará automaticamente o arquivo de configuração do DevContainer no seu projeto e exibirá um popup informando:
+*Folder contains a Dev Container configuration file. Reopen folder to develop in a container.*
+
+4. **Reabra o Projeto no Container:**
+Clique em **Reopen in Container** no popup e aguarde o build ser concluído.
+
+5. **Acesse a Aplicação:**
+Abra o navegador e acesse http://localhost:3000 para explorar a aplicação.
+
 <br>
 
 ## 🐛 Contribuições e Problemas
