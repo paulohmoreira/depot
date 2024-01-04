@@ -57,5 +57,25 @@ Abra o navegador e acesse http://localhost:3000 para explorar a aplicação.
 
 <br>
 
+## 🧑‍💻 Acessando aplicação
+
+Para acessar a área administrativa do Depot, é necessário fazer login primeiro. Siga os passos abaixo:
+
+1. Abra o navegador e acesse `http://localhost:3000/login`.
+
+2. Faça o Login:
+   - Se você seguiu o passo anterior em *Como Executar o Projeto*, um usuário administrativo foi gerado automaticamente nos bastidores.
+   - Utilize as seguintes credenciais:
+     - **Username:** admin
+     - **Password:** 123456
+
+3. Após fazer o login, você terá acesso à área administrativa pelo menu lateral ou diretamente pelos seguintes links:
+   - **Pedidos:** [http://localhost:3000/orders](http://localhost:3000/orders)
+   - **Produtos:** [http://localhost:3000/products](http://localhost:3000/products)
+   - **Usuários:** [http://localhost:3000/users](http://localhost:3000/users)
+
+
+<br>
+
 ## 🐛 Contribuições e Problemas
 Contribuições são bem-vindas! Se você identificar problemas ou quiser melhorar a aplicação, sinta-se à vontade para abrir uma issue ou enviar um *pull request*.
